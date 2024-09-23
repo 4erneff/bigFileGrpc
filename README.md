@@ -5,7 +5,7 @@ This project demonstrates a simple gRPC service that:
 - **Client**: Shows an example of how to consume the server's file service to download the file in chunks.
 
 ### Proto Definitions
-All gRPC interfaces are defined in `proto/file_service.proto`. These definitions specify the gRPC methods available for file metadata and file streaming.
+All gRPC interfaces are defined in `proto/server.proto`. These definitions specify the gRPC methods available for file metadata and file streaming.
 
 ### Server
 The server generates a large file (1GB) when started and exposes two gRPC endpoints:
